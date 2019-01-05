@@ -3,15 +3,13 @@ import { Form, FormGroup, FormControl, ControlLabel, Button } from 'react-bootst
 
 class Gift extends Component {
     constructor() {
-        super()
-    
+        super()    
         this.state = ( { person: '', present: ''})
     }
 
-
     render() {
         return (
-            <div>
+            <div className='gift'>
                 <Form>
                     <FormGroup>
                         <ControlLabel>Person</ControlLabel>
